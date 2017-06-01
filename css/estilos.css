@@ -1,0 +1,189 @@
+@import url('icons.css');
+@import url('fonts.css');
+@import url(foundation-icons.css);
+@import url(fontello.css);
+@import url(responsive.css);
+
+
+*{
+    box-sizing: border-box;
+	
+}
+.section__titulo {
+  text-align: center;
+  font-size: 40px;
+  color: #FBA919;
+}
+.contenedor {
+  margin: auto;
+  width: 99%;
+}  	
+
+img{
+    display: block;
+    max-width: 100%;
+
+}
+body{
+    margin: 0;
+    font-family: 'Opens Sans',sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: Gabriela-Regular;
+    letter-spacing: 1px;
+}
+/*EStilos del header*/
+.header{
+    height: 60px;
+}
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.logo, icon-menu-outline{
+    margin: 5px;
+    color:#fff;
+}
+.icon-menu-outline{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: blue;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+    
+}
+
+.menu{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-link{
+    display: block;
+    padding: 15px;
+    background: #a8a8dc;
+    text-decoration: none;
+    color:#fff;
+    }
+.menu-link:hover, .select{
+    background: white;
+    color:#a8a8dc;
+}
+.mostrar{
+    left: 0;
+}
+
+/*........................banner..............*/
+.banner{
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 20px;
+}
+
+
+.banner-txt{
+    display: none;
+}
+
+.banner .contenedor{
+    position: absolute;
+    top:75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color:#01a616;
+    text-align: center;
+}
+/*-----------------Estilos de cursos-----------------*/
+.cursos__columna {
+  position: relative;
+  margin-bottom: 30px;
+}
+.cursos__descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.cursos__titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.cursos__img {
+  width: 100%;
+}
+
+
+/*----------estilos de servicios--------------*/
+.section-titulo{
+    font-size: 35px;
+    text-align: center;
+    color:blue;
+    
+}
+.servicios-columna{
+	position: relative;
+	margin-bottom: 20px;
+	
+}
+.servicio-descripcion{
+    position: absolute;
+    top: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	width: 70%;
+	height: 100%;
+	padding: 7px;
+}
+.servicios-titulo{
+	font-size: 20px;
+	margin:5px 0;
+}
+
+
+/*------------------------footer----------------------*/
+footer{
+	color:rgba(255,255,255,0.7);
+	background: #5B6264;
+	text-align: center;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.footer .social [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+
